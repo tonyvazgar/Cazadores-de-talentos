@@ -1,0 +1,42 @@
+html {
+  background: linear-gradient(to bottom, Turquoise, white);
+  height: 100%;
+}
+
+.encabezado {
+  background-color: MediumTurquoise;
+}
+
+.encabezado, #boton-encabezado {
+  text-align: right;
+}
+.encabezado h1{
+  text-align: center;
+
+}
+
+
+.descripcion{
+  text-align: center;
+}
+
+ul{
+  padding: 15% 0 0 25%;
+}
+
+.lista-botones {
+  list-style-type: none;
+  display: center;
+
+}
+.lista-botones li {
+  display: inline-block;
+  text-align: center;
+}
+.lista-botones button {
+  font-size: 40px;
+  float: left;
+  width:100%;
+  height:100%;
+  padding-right: 10px;
+}
