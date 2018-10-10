@@ -3,15 +3,15 @@ html {
   height: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+label, input {
+  display: block;
 }
+
 .encabezado {
   background-color: MediumTurquoise;
 }
 
-#boton-ingresar {
+#boton-salir {
   float: right;
   height: 35px;
   width: 100px;
@@ -24,31 +24,21 @@ a {
 }
 .encabezado h1{
   text-align: center;
-
 }
 
-
-.descripcion{
-  text-align: center;
+.form-talento {
+  display: block;
+  font-size: 23px;
+  align-content: center;
+  border-right: 1px solid gray;
+  border-left: 1px solidad gray;
 }
 
-ul{
-  padding: 15% 0 0 25%;
-}
+ #nombre, #edad {
+   display: inline;
+ }
 
-.lista-botones {
-  list-style-type: none;
-  display: center;
-
-}
-.lista-botones li {
-  display: inline-block;
-  text-align: center;
-}
-.lista-botones button {
-  font-size: 40px;
-  float: left;
-  width:100%;
-  height:100%;
-  padding-right: 10px;
+input {
+  width: 200px;
+  margin-bottom: 25px;
 }
