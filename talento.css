@@ -34,7 +34,7 @@ label, input {
   border-left: 1px solidad gray;
 }
 
- #nombre, #edad {
+ #nombres, #edad {
    display: inline;
  }
 
