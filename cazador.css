@@ -12,6 +12,16 @@ input {
   width: auto;
 }
 
+.vertical {
+  display: inline;
+  float: left;
+
+}
+.formulario {
+  overflow: hidden;
+}
+
+
 fieldset div  {
   border-bottom: 1px solid #efefef;
   margin: 10px;
@@ -77,4 +87,36 @@ input#submit {
 input#submit:hover {
   color: white;
   background-color: MediumTurquoise;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    height: auto;
+    border: solid black;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid #ffffff;
+}
+
+li a.active {
+    background-color: MediumTurquoise;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
