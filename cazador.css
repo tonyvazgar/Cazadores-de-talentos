@@ -2,3 +2,63 @@ html {
   background: linear-gradient(to bottom, Turquoise, white);
   height: 100%;
 }
+
+body {
+  text-align: center;
+}
+
+head {
+  text-align: center;
+}
+
+fieldset div  {
+  border-bottom: 1px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+}
+
+.encabezado-cazador {
+background-color: MediumTurquoise;
+}
+.encabezado-cazador h1{
+  text-align: center;
+}
+
+
+.title {
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+form {
+  display: inline-block;
+}
+
+#boton-salir {
+  float: right;
+  height: 35px;
+  width: 100px;
+  font-size: 15px;
+  font-style: oblique;
+  background-color: Transparent;
+  cursor:pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+}
+
+fieldset {
+  width: auto;
+  height: auto;
+  border: 1px dotted #000000;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+}
