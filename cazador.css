@@ -7,8 +7,9 @@ body {
   text-align: center;
 }
 
-head {
-  text-align: center;
+input {
+  height: 20px;
+  width: auto;
 }
 
 fieldset div  {
@@ -16,21 +17,23 @@ fieldset div  {
   margin: 10px;
   padding-bottom: 10px;
   width: 260px;
+  text-align: center;
 }
 
 .encabezado-cazador {
 background-color: MediumTurquoise;
 }
+
 .encabezado-cazador h1{
   text-align: center;
 }
-
 
 .title {
   float: left;
   width: 100px;
   text-align: right;
   padding-right: 10px;
+  font-size: 20px;
 }
 
 form {
@@ -56,9 +59,22 @@ form {
 
 fieldset {
   width: auto;
-  height: auto;
+  height: 400px;
   border: 1px dotted #000000;
   border-radius: 5px;
   padding: 10px;
-  text-align: left;
+}
+
+input#submit {
+  color: MediumTurquoise;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  float: right;
+}
+
+input#submit:hover {
+  color: white;
+  background-color: MediumTurquoise;
 }
