@@ -23,6 +23,11 @@ background-color: MediumTurquoise;
   border-radius: 5px;
 }
 
+.cita {
+    overflow: hidden;
+    text-align: center;
+}
+
 * {
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
@@ -59,3 +64,5 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+
