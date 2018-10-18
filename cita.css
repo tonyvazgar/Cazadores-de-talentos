@@ -23,9 +23,21 @@ background-color: MediumTurquoise;
   border-radius: 5px;
 }
 
+.vertical {
+    float: left;
+}
+  
 .cita {
     overflow: hidden;
-    text-align: center;
+    padding-left: 10%;
+}
+
+.cita h1, h2 {
+    padding: 10px 10px 10px 10px;
+}
+
+form {
+display: inline-block;
 }
 
 * {
@@ -64,5 +76,3 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
-
-

@@ -10,6 +10,18 @@ background-color: MediumTurquoise;
 .encabezado-proyecto h1{
   text-align: center;
 }
+.vertical {
+    float: left;
+}
+  
+.proyecto {
+    overflow: hidden;
+    padding-left: 10%;
+}
+
+.proyecto h1, h2 {
+    padding: 10px 10px 10px 10px;
+}
 
 #boton-salir {
   float: right;

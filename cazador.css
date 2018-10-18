@@ -1,7 +1,3 @@
-html {
-  background: linear-gradient(to bottom, Turquoise, white);
-  height: 100%;
-}
 
 body {
   text-align: center;
@@ -9,24 +5,22 @@ body {
 
 input {
   height: 20px;
-  width: auto;
+  width: 500px;
 }
 
 .vertical {
-  display: inline;
   float: left;
-
 }
+
 .formulario {
   overflow: hidden;
 }
-
 
 fieldset div  {
   border-bottom: 1px solid #efefef;
   margin: 10px;
   padding-bottom: 10px;
-  width: 260px;
+  width: 700px;
   text-align: center;
 }
 
@@ -75,18 +69,30 @@ fieldset {
   padding: 10px;
 }
 
-input#submit {
-  color: MediumTurquoise;
-  background-color: white;
-  border: none;
+input#submit, input#eliminar {
+  color: white;
+  background-color: mediumturquoise;
+  border: black;
   border-radius: 5px;
-  width: 80px;
+  width: 120px;
+  height: 80px;
   float: right;
+  font-size: 20px;
 }
 
 input#submit:hover {
-  color: white;
-  background-color: MediumTurquoise;
+  color: black;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+input#eliminar:hover {
+  color: black;
+  background-color: red;
+  cursor: pointer;
+}
+
+input#eliminar {
+  float: left;
 }
 
 ul {

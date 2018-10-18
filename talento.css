@@ -10,16 +10,18 @@ background-color: MediumTurquoise;
 .encabezado-talento h1{
   text-align: center;
 }
-
 .vertical {
-  display: inline;
   float: left;
-
 }
-.formulario {
+
+.cita {
   overflow: hidden;
+  padding-left: 10%;
 }
 
+.cita h1, h2 {
+  padding: 10px 10px 10px 10px;
+}
 form {
   display: inline-block;
 }
@@ -43,8 +45,6 @@ form {
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
 }
-
-
 
 input {
   border-bottom: 1px dotted #dcdcdc;
