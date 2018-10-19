@@ -12,7 +12,9 @@ background-color: MediumTurquoise;
 }
 .vertical {
   float: left;
+  border-radius: 20px;
 }
+
 
 .cita {
   overflow: hidden;
