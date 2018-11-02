@@ -23,38 +23,43 @@
 
     <div class="limiter">
 		<div class="container-login100">
-			<div class="wrap-login100 p-t-50 p-b-90">
-				<form class="login100-form validate-form flex-sb flex-w">
+			<div class="wrap-login100">
+				<form>
 					<span class="login100-form-title p-b-51">
-						Login
+						TalentCatch
 					</span>
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Username is required">
-						<input class="input100" type="text" name="username" placeholder="Username">
+					<div class="wrap-input100">
+						<input class="input100" type="text" name="username" placeholder="Email" id="email">
 						<span class="focus-input100"></span>
 					</div>
 					
 					
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+					<div class="wrap-input100">
+						<input class="input100" type="password" name="pass" placeholder="Contraseña" id="pass">
 						<span class="focus-input100"></span>
 					</div>
-					
+
+					<div class="wrap-input100">
+						<select id="tipoUsuario">
+							<option value="-1">Seleccione su tipo</option>
+							<option value="0">Talento</option>
+							<option value="1">Cazador</option>
+						</select>
+						<span class="focus-input100"></span>
+					</div>
+
+
+
 					<div class="flex-sb-m w-full p-t-3 p-b-24">
-						<div class="contact100-form-checkbox">
-							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-							<label class="label-checkbox100" for="ckb1">
-								Remember me
-							</label>
-						</div>
 						<div>
 							<a href="#" class="txt1">
-								Forgot?
+								Contraseña Olvidada?
 							</a>
 						</div>
 					</div>
 					<div class="container-login100-form-btn m-t-17">
-						<button class="login100-form-btn">
-							Login
+						<button class="login100-form-btn" id="iniciarSesion">
+							Iniciar Sesión
 						</button>
 					</div>
 
@@ -62,5 +67,9 @@
 			</div>
 		</div>
 	</div>
+	<script src="js/sweetalert2.all.js"></script>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/Model.js"></script>
+	<script src="js/login.js"></script>
   </body>
 </html>
